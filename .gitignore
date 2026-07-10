@@ -1,0 +1,31 @@
+# Virtual environment (rebuild from requirements.txt — do NOT commit, it's ~1.2 GB)
+.venv/
+venv/
+env/
+
+# PyCharm / IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.Python
+
+# Data & model artifacts (uncomment/adjust if you keep large files out of git)
+# data/
+# *.csv
+# *.pt
+# *.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
